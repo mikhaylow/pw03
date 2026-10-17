@@ -6,10 +6,7 @@ int main(void)
     char word1[15];
     char word2[15];
 
-    if (scanf("%s %s", word1, word2) != 2)
-    {
-        return -1;
-    }
+    if (scanf("%14s %14s", word1, word2) != 2) return -1;
 
     int len_word1 = strlen(word1);
     int len_word2 = strlen(word2);

@@ -9,7 +9,7 @@ int main(void)
     wchar_t b[23];
     wchar_t c[23];
 
-    if (wscanf(L"%ls %ls %ls", &a, &b, &c) != 3)
+    if (wscanf(L"%22ls %22ls %22ls", &a, &b, &c) != 3)
     {
         return -1;
     }
